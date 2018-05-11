@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* Image used */
+    background-image: url("https://images.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg?cs=srgb&dl=dish-egg-food-54455.jpg&fm=jpg");
+
+    /* Use full height */
+    height: 100%;
+
+    /* Center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.message {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
